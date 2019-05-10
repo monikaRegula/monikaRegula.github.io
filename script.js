@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  var apiRoot = 'https://sleepy-coast-90756.herokuapp.com/v1/trello/';
+  var apiRoot = 'https://sleepy-coast-90756.herokuapp.com/v1/task/';
+
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
